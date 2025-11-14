@@ -240,7 +240,8 @@ h3 {
 .overlay2::before {
   position: absolute;
   content: "";
-  background-color: #000000;
+  /* background-color: #000000; */
+  background-color: rgba(0, 128, 128, 0.3); /* soft teal overlay */
   top: 0;
   left: 0;
   width: 100%;
@@ -2865,7 +2866,10 @@ h3 {
 
 /* line 61, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_tesmonial.scss */
 .testmonial_bg_2 {
-  background-image: url(../img/testmonial/2.png);
+  background-image: url(../img/testmonial/3.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 /* line 1, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_service.scss */
