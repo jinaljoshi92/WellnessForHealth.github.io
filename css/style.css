@@ -94,13 +94,12 @@ h6 a {
 
 /* line 54, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/theme-default.scss */
 ul {
-  margin: 0px;
-  padding: 0px;
+  padding-left:20px;
 }
 
 /* line 58, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/theme-default.scss */
 li {
-  list-style: none;
+      list-style: circle;
 }
 
 /* line 61, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/theme-default.scss */
@@ -143,6 +142,7 @@ label {
   text-shadow: none;
 }
 
+
 /* line 91, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/theme-default.scss */
 *::-webkit-input-placeholder {
   color: #cccccc;
@@ -163,7 +163,12 @@ label {
   font-size: 14px;
   opacity: 1;
 }
-
+.highlight-letter {
+    font-weight: 700;
+    background: #d2d92a;
+    padding: 6px 10px;
+    border-radius: 50%;
+}
 /* line 106, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/theme-default.scss */
 *::placeholder {
   color: #cccccc;
@@ -216,6 +221,9 @@ h3 {
   position: relative;
   z-index: 0;
 }
+.logo a img, .footer_logo a img{
+	width:80px;
+}
 
 /* line 147, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/theme-default.scss */
 .overlay::before {
@@ -241,7 +249,7 @@ h3 {
   position: absolute;
   content: "";
   /* background-color: #000000; */
-  background-color: rgba(0, 128, 128, 0.3); /* soft teal overlay */
+  background-color: rgb(0 128 128 / 97%); /* soft teal overlay */
   top: 0;
   left: 0;
   width: 100%;
@@ -844,13 +852,17 @@ h3 {
 
 /* line 15, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_header.scss */
 .header-area .main-header-area {
-  padding: 18px 0;
+  /* padding: 18px 0; */
+  padding-top: 10px;
+    padding-bottom: 10px;
   background: #fff;
 }
 
 /* line 31, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_header.scss */
 .header-area .main-header-area .logo-img {
   text-align: center;
+  width: 80px;       /* or smaller if you want */
+    height: auto;
 }
 
 @media (max-width: 767px) {
@@ -1523,9 +1535,9 @@ h3 {
 }
 
 /* line 111, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_about.scss */
-.business_expert_area {
-  padding-bottom: 100px;
-}
+/* .business_expert_area { */
+  /* padding-bottom: 100px; */
+/* } */
 
 @media (max-width: 767px) {
   /* line 111, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_about.scss */
@@ -2257,8 +2269,8 @@ h3 {
 
 /* line 6, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_footer.scss */
 .footer .footer_top {
-  padding-top: 145px;
-  padding-bottom: 129px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   background: #1F1F1F;
 }
 
@@ -2290,7 +2302,7 @@ h3 {
   font-weight: 400;
   color: #fff;
   text-transform: capitalize;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 @media (max-width: 767px) {
@@ -3294,7 +3306,8 @@ h3 {
 
 /* line 133, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_contact.scss */
 .contact-section {
-  padding: 130px 0 100px;
+  padding: 50px 0 0px;
+  /* padding: 130px 0 100px; */
 }
 
 @media (max-width: 991px) {
